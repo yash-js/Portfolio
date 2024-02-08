@@ -1,4 +1,3 @@
 ### PORTFOLIO
 
-### Demo:
-`yashpurani.com`
+### PROJECT UNDER DEVELOPMENT 
