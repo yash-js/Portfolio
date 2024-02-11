@@ -27,16 +27,16 @@ module.exports = {
         bodyFont: ["Montserrat", "sans-serif"],
         titleFont: ["Inter", "sans-serif"],
       },
-    },
-    boxShadow: {
-      navbarShadow: " 0 -10px 30px -10px rgba(2,12,27.0.7)",
-    },
-    colors: {
-      bodyColor: "#0A192f",
-      textGreen: "#64ffda",
-      textLight: "#ccd6f6",
-      textDark: "#8892b0",
-      hoverColor: "rgba(100,255,218,0.1)",
+      boxShadow: {
+        navbarShadow: "0 10px 30px -10px rgba(2,12,27,0.7)",
+      },
+      colors: {
+        bodyColor: "#0A192f",
+        textGreen: "#90EE90",
+        textLight: "#ccd6f6",
+        textDark: "#8892b0",
+        hoverColor: "rgba(100,255,218,0.1)",
+      },
     },
   },
   plugins: [],
