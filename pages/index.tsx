@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import { motion } from 'framer-motion'
 import Banner from '@/components/Banner'
+import About from '@/components/About'
 
 export default function Home() {
   return (
@@ -29,6 +30,7 @@ export default function Home() {
 
           <div className="h-[88vh] w-full mx-auto p-4">
             <Banner />
+            <About />
           </div>
 
           <motion.div
