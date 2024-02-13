@@ -19,7 +19,7 @@ const Banner = () => {
                 transition={{ delay: 0.6, duration: 0.5 }}
                 className='text-4xl lgl:text-6xl font-titleFont font-semibold flex flex-col'
             >
-                I'm Yash,
+                I&apos;m Yash,
                 <span
                     className='text-textDark mt-2 lgl:mt-4'
                 > Crafting Experiences for the Digital World.</span>
