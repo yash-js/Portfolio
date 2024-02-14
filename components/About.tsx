@@ -17,11 +17,13 @@ const About = () => {
             <div className="flex flex-col lgl:flex-row gap-16">
                 <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero, fuga deleniti! Quo vel est eum dicta. Est sint ea rerum, vitae delectus quae voluptates impedit, ipsum explicabo in dolorem nesciunt quidem. Dolorem natus officiis eius pariatur saepe odio commodi, veritatis dignissimos nostrum doloremque, facere tenetur? Nemo, repellat soluta harum laudantium quas corrupti, qui blanditiis aut rerum ab dolorum necessitatibus vel itaque dignissimos quae deserunt dolores impedit explicabo sunt neque dolorem reprehenderit ad obcaecati tempore. Illum repellendus aperiam quae possimus dolorem ratione ab reprehenderit incidunt animi placeat, assumenda molestias, asperiores eligendi molestiae quidem odio aliquid. Reiciendis est repudiandae temporibus totam culpa.
+                        I'm Yash, a passionate Full Stack Developer specializing in the MERN stack. With over 2.7 years of experience, I've honed my skills in crafting robust and scalable web applications. My expertise includes React, Node.js, Express, IoT, Next.js, Tailwind CSS, Rust, React Native, MongoDB, MySQL, Firebase, Git, JIRA, Cypress, Sequelize, Material UI, Redmine, HTML, CSS, Redis, and Redux.
                     </p>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <span className='text-textGreen'>
-                        Sequi quidem expedita</span> enim iusto. Culpa veritatis alias doloremque rem nam sed distinctio cumque iste animi illo tempore, corrupti eos. Quia, odio!
+                    <p>
+                        I thrive in dynamic environments, where I can leverage my problem-solving skills to create innovative solutions. Whether it's building responsive user interfaces or optimizing backend performance, I'm dedicated to delivering high-quality software that exceeds expectations.
                     </p>
+
+
                     <p>Here are few technologies I have been working with recently:</p>
                     <ul
                         className='max-w-[450px] text-sm font-titleFont grid grid-cols-3 gap-2 mt-6'
@@ -126,7 +128,7 @@ const About = () => {
                 </div>
                 <div className=""></div>
             </div>
-        </section>
+        </section >
     )
 }
 
