@@ -19,6 +19,9 @@ export default function Home() {
       </Head>
       <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll ">
         <Navbar />
+        <p className='p-5 text-center text-xl text-red-500'>
+          This is prototype. Portfolio Under Development!
+        </p>
         <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
 
           <motion.div
