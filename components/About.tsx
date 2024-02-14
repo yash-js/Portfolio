@@ -17,10 +17,10 @@ const About = () => {
             <div className="flex flex-col lgl:flex-row gap-16">
                 <div className="w-full lgl:w-2/3 text-base text-textDark font-medium flex flex-col gap-4">
                     <p>
-                        I'm Yash, a passionate Full Stack Developer specializing in the MERN stack. With over 2.7 years of experience, I've honed my skills in crafting robust and scalable web applications. My expertise includes React, Node.js, Express, IoT, Next.js, Tailwind CSS, Rust, React Native, MongoDB, MySQL, Firebase, Git, JIRA, Cypress, Sequelize, Material UI, Redmine, HTML, CSS, Redis, and Redux.
+                        I&apos;m Yash, a passionate Full Stack Developer specializing in the MERN stack. With over 2.7 years of experience, I&apos;ve honed my skills in crafting robust and scalable web applications. My expertise includes React, Node.js, Express, IoT, Next.js, Tailwind CSS, Rust, React Native, MongoDB, MySQL, Firebase, Git, JIRA, Cypress, Sequelize, Material UI, Redmine, HTML, CSS, Redis, and Redux.
                     </p>
                     <p>
-                        I thrive in dynamic environments, where I can leverage my problem-solving skills to create innovative solutions. Whether it's building responsive user interfaces or optimizing backend performance, I'm dedicated to delivering high-quality software that exceeds expectations.
+                        I thrive in dynamic environments, where I can leverage my problem-solving skills to create innovative solutions. Whether it&apos;s building responsive user interfaces or optimizing backend performance, I&apos;m dedicated to delivering high-quality software that exceeds expectations.
                     </p>
 
 
