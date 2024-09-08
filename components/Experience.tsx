@@ -1,44 +1,53 @@
-import React, { useState } from 'react'
-import SectionTitle from './SectionTitle'
-import Mahitech from './works/Mahitech'
-import Proses from './works/Proses'
+import React, { useState } from 'react';
+import SectionTitle from './SectionTitle';
+import ExperienceDetails from './ExperienceDetails';
+import { experiences, ExperienceData } from '../data/experience';
 
 const Experience = () => {
-    const [mahitech, setMahitech] = useState(false)
-    const [proses, setProses] = useState(true)
+    const [selectedIndex, setSelectedIndex] = useState<number>(0);
+
+    // Function to parse the start date into a comparable format
+    const parseDate = (dateString: string) => {
+        const [month, year] = dateString.split(' ');
+        return new Date(`${month} 1, ${year}`).getTime();
+    };
+
+    // Sort experiences by start date in descending order
+    const sortedExperiences = [...experiences].sort((a, b) => parseDate(b.startDate) - parseDate(a.startDate));
+
+    const handleItemClick = (index: number) => {
+        setSelectedIndex(index);
+    };
+
     return (
         <section
             className='max-w-containerXs mx-auto py-10 lgl:py-24 px-4'
-            id='experience'>
+            id='experience'
+        >
             <SectionTitle
                 title='Where I have Worked'
                 titleNo='02'
             />
             <div className="w-full mt-10 flex flex-col md:flex-row gap-16">
                 <ul className='md:w-40 flex flex-col'>
-
-                    <li onClick={
-                        () => {
-                            setMahitech(false)
-                            setProses(true)
-                        }
-                    } className={`border-l-2 ${proses ? ' border-l-textGreen' : 'border-l-hoverColor'} bg-transparent text-textDark hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
-                        Proses Web Technologies
-                    </li>
-                    <li onClick={
-                        () => {
-                            setMahitech(true)
-                            setProses(false)
-                        }
-                    } className={`border-l-2 ${mahitech ? ' border-l-textGreen' : 'border-l-hoverColor'} bg-transparent text-textDark hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}>
-                        MahiTech LLC
-                    </li>
+                    {sortedExperiences.map((experience, index) => (
+                        <li
+                            key={index}
+                            onClick={() => handleItemClick(index)}
+                            className={`border-l-2 ${selectedIndex === index ? 'border-l-textGreen' : 'border-l-hoverColor'} bg-transparent text-textDark hover:bg-[#112240] py-3 text-sm cursor-pointer duration-300 px-8 font-medium`}
+                        >
+                            {experience.company}
+                        </li>
+                    ))}
                 </ul>
-                {mahitech && <Mahitech />}
-                {proses && <Proses />}
+                <div className="flex-1">
+                    <ExperienceDetails
+                        {...sortedExperiences[selectedIndex]}
+                    />
+                </div>
             </div>
         </section>
-    )
-}
+    );
+};
 
-export default Experience
+export default Experience;

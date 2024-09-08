@@ -8,6 +8,9 @@ import Banner from '@/components/Banner'
 import About from '@/components/About'
 import Experience from '@/components/Experience'
 import Projects from '@/components/Projects'
+import Contact from '@/components/Contact'
+import {ToastContainer} from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function Home() {
   return (
@@ -20,9 +23,7 @@ export default function Home() {
       </Head>
       <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll ">
         <Navbar />
-        <p className='p-5 text-center text-xl text-red-500'>
-          This is prototype. Portfolio Under Development!
-        </p>
+      
         <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
 
           <motion.div
@@ -38,6 +39,7 @@ export default function Home() {
             <About />
             <Experience />
             <Projects />
+            <Contact/>
           </div>
 
           <motion.div
@@ -48,6 +50,7 @@ export default function Home() {
             <RightSide />
           </motion.div>
         </div>
+        <ToastContainer />
       </main>
     </>
   )
