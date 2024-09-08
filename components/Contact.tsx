@@ -1,4 +1,5 @@
 import { toast } from 'react-toastify';
+import SectionTitle from './SectionTitle';
 
 function Contact() {
     const email = "contact@yashpurani.com";
@@ -35,11 +36,10 @@ function Contact() {
             id="contact"
             className='max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col gap-4 items-center justify-center'
         >
-            <p
-                className='font-titleFont text-lg text-textGreen font-semibold flex items-center tracking-wide'
-            >
-                04. What's next?
-            </p>
+            <SectionTitle
+                title="What's next?"
+                titleNo='04'
+            />
             <h2 className="font-titleFont text-5xl font-semibold">
                 Get in touch
             </h2>
