@@ -37,14 +37,14 @@ function Contact() {
             className='max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col gap-4 items-center justify-center'
         >
             <SectionTitle
-                title="What's next?"
+                title="What&apos;s next?"
                 titleNo='04'
             />
             <h2 className="font-titleFont text-5xl font-semibold">
                 Get in touch
             </h2>
             <p className="max-w-[600px] text-center text-textDark">
-                I'm currently exploring new opportunities and excited to connect with potential collaborators or employers. If you have an opportunity in mind or just want to reach out for a chat, feel free to drop me a message. I look forward to hearing from you!
+                I&apos;m currently exploring new opportunities and excited to connect with potential collaborators or employers. If you have an opportunity in mind or just want to reach out for a chat, feel free to drop me a message. I look forward to hearing from you!
             </p>
             <div className="flex flex-col items-center">
                 <a href={`mailto:${email}`}>
