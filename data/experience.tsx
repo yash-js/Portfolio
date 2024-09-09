@@ -41,9 +41,9 @@ export const experiences: ExperienceData[] = [
         startDate: "May 2024",
         endDate: "Oct 2024",
         responsibilities: [
-            "Developed eCommerce, food delivery, and security system controlling apps using React Native, Flutter, and Ionic.",
-            "Led a team of developers and coordinated with cross-functional teams to deliver high-quality software.",
-            "Improved application performance and user experience through regular updates and optimizations."
+            "Developing and maintaining the on demand laundry app for the Saudi Arabian market, ensuring high performance and responsiveness.",
+            "Implemented efficient features that improved user experience and reduced load times, leading to a more responsive application",
+            "Collaborated with cross-functional teams to design, develop, and deploy new functionalities, driving higher user engagement and satisfaction."
         ]
     },
     
