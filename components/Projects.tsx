@@ -15,22 +15,23 @@ const Projects = () => {
             />
             {/* First Project */}
             <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-                {/* <div className="">
-                    <a className='w-full xl:w-1/2 h-auto relative' href="taskscape.yashpurani.com">
-                        <div className="">
+                <div className="">
+                    <a className='w-full xl:w-1/2 min-h-50 h-auto relative' href="taskscape.yashpurani.com">
+                        <div className="min-h-56">
                             <Image
-                                fill
+                            fill
                                 alt='project_1'
                                 className='h-full w-full object-contain'
                                 src={'/assets/images/taskscape.png'}
                             />
                         </div>
                     </a>
-                </div> */}
-                <div className=""></div>
+                    <h1>Yash</h1>
+                    </div>
+                {/* <div className=""></div>
                 <p className='p-5 text-center text-xl text-red-500'>
           This Section is Under Development!
-        </p>
+        </p> */}
             </div>
         </section>
     )
