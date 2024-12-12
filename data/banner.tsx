@@ -19,7 +19,7 @@ export const bannerData: BannerData = {
         main: "I'm Yash,",
         sub: "Crafting Experiences for the Digital World."
     },
-    description: "Experienced Software Developer with more than 3 years of expertise in developing high-performance applications. Skilled in full-stack development, databases, and automating testing.",
+    description: "Experienced Software Developer with more than 3.5 years of expertise in developing high-performance applications. Skilled in full-stack development, databases, and automating testing.",
     linkText: "Learn more",
     linkUrl: "#about", // You can update this with the actual URL
     buttonText: "Check out my projects"
