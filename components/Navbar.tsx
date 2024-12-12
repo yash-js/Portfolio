@@ -52,7 +52,7 @@ font-titleFont hover:text-3x relative">
                             </motion.li>
                         </Link>
                         {/* Add HOVER CLASS ONCE PROJECT SECTION READY : hover:text-textGreen */}
-                        <Link className='flex items-center gap-1 font-medium text-textDark  cursor-not-allowed opacity-70 duration-300 nav-link' href={'#project'}>
+                        <Link className='flex items-center gap-1 font-medium text-textDark hover:text-textGreen cursor-pointer duration-300 nav-link' href={'#project'}>
                             <motion.li
                                 initial={{ y: -10, opacity: 0 }}
                                 animate={{ y: 0, opacity: 1 }}
