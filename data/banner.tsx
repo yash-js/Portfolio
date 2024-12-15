@@ -11,6 +11,7 @@ export interface BannerData {
     linkText: string;
     linkUrl: string;
     buttonText: string;
+    buttonLinkUrl?:string
 }
 
 export const bannerData: BannerData = {
