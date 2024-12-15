@@ -35,7 +35,7 @@ export const projects: Project[] = [
       ],
       links: [
         { url: "https://github.com/username/taskscape", icon: FaGithub, label: "GitHub" },
-        { url: "https://taskscape.demo.com", icon: FaExternalLinkAlt, label: "Live Demo" }
+        { url: "https://taskscape.yashpurani.com/", icon: FaExternalLinkAlt, label: "Live Demo" }
       ],
       featured: true
     },
