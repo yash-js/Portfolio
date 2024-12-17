@@ -11,6 +11,7 @@ export interface BannerData {
     linkText: string;
     linkUrl: string;
     buttonText: string;
+    buttonLinkUrl?:string
 }
 
 export const bannerData: BannerData = {
@@ -22,5 +23,6 @@ export const bannerData: BannerData = {
     description: "Experienced Software Developer with more than 3.5 years of expertise in developing high-performance applications. Skilled in full-stack development, databases, and automating testing.",
     linkText: "Learn more",
     linkUrl: "#about", // You can update this with the actual URL
-    buttonText: "Check out my projects"
+    buttonText: "Check out my projects",
+    buttonLinkUrl: "#projects"
 };

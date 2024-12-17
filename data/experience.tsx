@@ -39,7 +39,7 @@ export const experiences: ExperienceData[] = [
         company: "Zentosys Solutions Pvt Ltd",
         companyUrl: "https://www.zentosys.ai",
         startDate: "May 2024",
-        endDate: "Oct 2024",
+        endDate: "Present",
         responsibilities: [
             "Developing and maintaining the on demand laundry app for the Saudi Arabian market, ensuring high performance and responsiveness.",
             "Implemented efficient features that improved user experience and reduced load times, leading to a more responsive application",
