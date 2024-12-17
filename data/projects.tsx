@@ -56,6 +56,23 @@ export const projects: Project[] = [
       featured: true
     },
     {
+      title: "NestWise",
+      description: "A personal finance management tool that helps users track their expenses, set savings goals, and analyze spending trends. Built with the MERN stack, offering real-time insights and budgeting features.",
+      image: "/assets/images/nestwise.png", // Update with your actual image path
+      technologies: [
+        { name: "MongoDB", color: "text-textGreen" },
+        { name: "Express.js", color: "text-textGreen" },
+        { name: "React", color: "text-textGreen" },
+        { name: "Node.js", color: "text-textGreen" }
+      ],
+      links: [
+        { url: "https://github.com/your-repo/NestWise", icon: FaGithub, label: "GitHub" },
+        // Uncomment and replace with your live demo link when available
+        // { url: "https://nestwise.owlcraft.in", icon: FaExternalLinkAlt, label: "Live Demo" }
+      ],
+      featured: true
+    },    
+    {
         title: "Student Management System",
         description: "A comprehensive student management system using the MERN stack. It includes features such as student registration, attendance tracking, grade management, and class scheduling.",
         image: "/assets/images/sms.png",
@@ -66,7 +83,7 @@ export const projects: Project[] = [
           { name: "Node.js", color: "text-textGreen" }
         ],
         links: [
-          { url: "https://github.com/yash-js/Student-Management-System", icon: FaGithub, label: "GitHub" },
+          { url: "https://github.com/yash-js/personal-finance-management", icon: FaGithub, label: "GitHub" },
         //   { url: "https://student-management.demo.com", icon: FaExternalLinkAlt, label: "Live Demo" }
         ],
         featured: true
