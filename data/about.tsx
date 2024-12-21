@@ -35,8 +35,8 @@ export interface AboutMe {
 
 export const aboutMe: AboutMe = {
     introduction: [
-        "I’m Yash, a passionate Full Stack Developer specializing in the MERN stack. With more than 3 years of experience, I’ve honed my skills in crafting robust and scalable web applications. My expertise includes React, Node.js, Express, IoT, Next.js, Tailwind CSS, Rust, React Native, MongoDB, MySQL, Firebase, Git, JIRA, Cypress, Sequelize, Material UI, Redmine, HTML, CSS, Redis, and Redux.",
-        "I thrive in dynamic environments, where I can leverage my problem-solving skills to create innovative solutions. Whether it’s building responsive user interfaces or optimizing backend performance, I’m dedicated to delivering high-quality software that exceeds expectations."
+        "I’m Yash, a dedicated Full Stack Developer with 3.5+ years of experience in the MERN stack. I specialize in designing and building high-performance web applications using technologies like React, Node.js, Express, Next.js, and MongoDB. My technical arsenal also includes expertise in Tailwind CSS, Rust, React Native, MySQL, Firebase, and Redux.",
+        "I excel in dynamic and collaborative environments, leveraging my problem-solving skills to create innovative, user-centric solutions. From crafting responsive user interfaces to optimizing backend systems for efficiency, I am committed to delivering top-notch software that drives results and enhances user experiences."
     ],
     technologies
 };

@@ -15,14 +15,14 @@ export interface BannerData {
 }
 
 export const bannerData: BannerData = {
-    welcomeMessage: "Welcome to my corner of the web.",
+    welcomeMessage: "Welcome to my digital space.",
     introduction: {
         main: "I'm Yash,",
-        sub: "Crafting Experiences for the Digital World."
+        sub: "Building Solutions for the Modern Web."
     },
-    description: "Experienced Software Developer with more than 3.5 years of expertise in developing high-performance applications. Skilled in full-stack development, databases, and automating testing.",
-    linkText: "Learn more",
-    linkUrl: "#about", // You can update this with the actual URL
-    buttonText: "Check out my projects",
+    description: "Full Stack Developer with 3.5+ years of experience delivering robust and efficient web applications. Proficient in React, Node.js, Next.js, and creating seamless user experiences backed by optimized backend architectures.",
+    linkText: "Discover my journey",
+    linkUrl: "#about",
+    buttonText: "Explore my projects",
     buttonLinkUrl: "#projects"
 };
