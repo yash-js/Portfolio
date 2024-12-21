@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { bannerData } from '../data/banner';
 
 const Banner: React.FC = () => {
-    const { welcomeMessage, introduction, description, linkText, linkUrl, buttonText } = bannerData;
+    const { welcomeMessage, introduction, description, linkText, linkUrl, buttonText, buttonLinkUrl } = bannerData;
 
     return (
         <section
@@ -47,7 +47,7 @@ const Banner: React.FC = () => {
                 transition={{ delay: 0.6, duration: 0.9 }}
                 className='w-52 h-14 text-sm font-titleFont border border-textGreen rounded-md text-textGreen tracking-wide hover:bg-hoverColor duration-300 capitalize'
             >
-                {buttonText}
+               <a href={buttonLinkUrl}>{buttonText}</a>
             </motion.button>
         </section>
     );
